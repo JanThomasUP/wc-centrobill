@@ -199,7 +199,7 @@ if (!class_exists('WC_Centrobill')) {
         }
 
         private function __clone() {}
-        private function __wakeup() {}
+        public function __wakeup() {}
     }
 
     WC_Centrobill::getInstance();
